@@ -19,7 +19,7 @@ export default function Coaching() {
           <p className="text-sm text-gray-600 mb-4">Calc AB/BC · AP Stats · AP English · AP USH · SAT/ACT</p>
           <p className="mb-4">
             <span className="font-semibold">$75/hr</span> &nbsp;
-            <span className="text-gray-500">($45/hr if you're a college student, experiencing need, or can barter something cool).</span>
+            <span className="text-gray-500">($45/hr if you&rsquo;re a college student, experiencing need, or can barter something cool).</span>
           </p>
           <p className="mb-4">
             60+ students coached through a tutoring firm last year alone. Personal scores: SAT 1600, ACT 35, GRE 169Q.
@@ -32,7 +32,7 @@ export default function Coaching() {
           <h3 className="text-2xl font-medium mb-1">Life Coaching</h3>
           <p className="text-sm text-gray-600 mb-4">Mindset • Habits • Decision‑making</p>
           <p className="mb-4">
-            30% of blocks I've seen are cognitive distortions (availability, sunk cost, framing), 40% are subconscious emotional roadblocks, and the rest is plain hard work. I bring tools from psychodynamic therapy, IFS, and CBT to surface & solve them.
+            30% of blocks I&rsquo;ve seen are cognitive distortions (availability, sunk cost, framing), 40% are subconscious emotional roadblocks, and the rest is plain hard work. I bring tools from psychodynamic therapy, IFS, and CBT to surface & solve them.
           </p>
           <p className="text-sm text-gray-600">Pilot program – inquire for custom rates while I gather case studies.</p>
         </article>
