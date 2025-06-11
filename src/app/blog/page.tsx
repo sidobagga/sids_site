@@ -9,7 +9,7 @@ export default function Blog() {
       <h2 className="text-2xl font-semibold mb-4">Blog</h2>
       <p>Thoughts on running, cognition, and data will appear here.</p>
       <p className="mt-6">
-        <Link href="https://www.strava.com/athletes/YOUR_ID" className="text-accent underline">
+        <Link href="https://www.strava.com/athletes/6308986" className="text-accent underline">
           Follow my runs on Strava →
         </Link>
       </p>
