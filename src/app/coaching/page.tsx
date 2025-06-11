@@ -16,10 +16,10 @@ export default function Coaching() {
         {/* Academic Tutoring - Most prominent */}
         <article className="rounded-2xl border bg-white p-8 shadow-md">
           <h3 className="text-3xl font-medium mb-2">Academic Tutoring</h3>
-          <p className="text-base text-gray-600 mb-6">Calc AB/BC · AP Stats · AP English · AP USH · SAT/ACT</p>
+          <p className="text-base text-gray-600 mb-6">Calc AB/BC · AP Stats · AP English · APUSH · SAT/ACT</p>
           <p className="mb-6 text-lg">
-            <span className="font-semibold">$75/hr</span> &nbsp;
-            <span className="text-gray-500">($45/hr if you&rsquo;re a college student, experiencing need, or can barter something cool).</span>
+            <span className="font-semibold">$110/hr</span> &nbsp;
+            <span className="text-gray-500">(Reduced rate if you&rsquo;re experiencing need, or can barter something cool).</span>
           </p>
           <p className="mb-6 text-base">
             60+ students coached through a tutoring firm last year alone. Personal scores: SAT 1600, ACT 35, GRE 169Q.

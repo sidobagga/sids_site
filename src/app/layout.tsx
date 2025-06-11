@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 import NavBar from '@/components/NavBar'
 import "./globals.css";
 
@@ -27,7 +28,9 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${geistSans.variable} ${geistMono.variable} mx-auto max-w-3xl px-4 md:px-0 font-sans antialiased text-gray-900 bg-neutral-50`}>
         <header className="pt-10 pb-6">
-          <h1 className="text-3xl font-bold">Sid Bagga</h1>
+          <Link href="/" className="hover:opacity-80 transition-opacity">
+            <h1 className="text-3xl font-bold">Sid Bagga</h1>
+          </Link>
           <p className="text-sm text-gray-600">Data scientist · Coach · Runner</p>
           <NavBar />
         </header>
