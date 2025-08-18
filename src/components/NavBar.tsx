@@ -5,7 +5,8 @@ import { usePathname } from 'next/navigation'
 const links = [
   { href: '/data-science', label: 'Data Science' },
   { href: '/coaching',     label: 'Coaching'     },
-  { href: '/blog',         label: 'Blog'         }
+  { href: '/blog',         label: 'Blog'         },
+  { href: '/drills',       label: 'Drills'       }
 ]
 
 export default function NavBar() {
