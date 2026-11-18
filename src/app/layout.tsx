@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import NavBar from '@/components/NavBar'
+import { Analytics } from '@vercel/analytics/next';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -40,6 +41,7 @@ export default function RootLayout({
         <footer className="py-10 text-xs text-center text-gray-500">
           © {new Date().getFullYear()} Sid Bagga. All rights reserved.
         </footer>
+        <Analytics />
       </body>
     </html>
   );
